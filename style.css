@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* use border-box for easier sizing */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("backgroud.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #6f00ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  background: transparent;
+  /* border: 2px solid rgb(218, 151, 9); */
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  
+}
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  background: transparent;
+  /* border: 2px solid rgb(218, 151, 9); */
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    gap: 35px;
+}
+
+.gender-option{
+  display:flex;
+  justify-content: flex-start;
+  gap:12px;
+  margin-top: 8px;
+}
+.gender-option label {
+  display: flex;
+  align-items: center;                
+  cursor: pointer;
+}
+
+.gender-option input[type="radio"] {
+  accent-color: #6f00ff;    
+}
+
+@media screen and (max-width:480px) {
+
+  h2{
+    color: Green;
+  }
+  
+  input{
+    width: 90%;
+  }
+  label{
+    font-weight: 800;
+    color:blueviolet;
+    border: none;
+    text-align: center;
+  }
+  
+}
+@media screen and (min-width:481px) and (max-width:600px) {
+
+  h2{
+    color: red;
+  }
+  
+  input{
+    width: 90%;
+  }
+  label{
+    font-weight: 800;
+    color:blueviolet;
+    border: none;
+    text-align: center;
+  }
+  
+}
