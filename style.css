@@ -75,6 +75,17 @@ textarea {
 .gender-option input[type="radio"] {
   accent-color: #6f00ff;    
 }
+.btn{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    color:blue;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid blue;
+
+}
 
 @media screen and (max-width:480px) {
 
@@ -109,4 +120,5 @@ textarea {
     text-align: center;
   }
   
+
 }
